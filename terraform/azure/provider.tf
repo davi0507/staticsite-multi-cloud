@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "auladetreino"
-    # CRIAR UM GRUPO DE RECURSOS E COLOCAR O NOME DELE A CIMA (CRIE NA GERIAO DO BRASIL)
+    # CRIAR UM GRUPO DE RECURSOS E COLOCAR O NOME DELE A CIMA (CRIE NA REGIAO DO BRASIL)
     storage_account_name = "auladeteste231"
     # CRIAR UM STORAGE ACCOUNT E COLOCAR O NOME DELE A CIMA
     container_name       = "tfstate"
