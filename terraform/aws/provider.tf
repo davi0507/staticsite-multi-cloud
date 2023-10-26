@@ -7,8 +7,10 @@ terraform {
   }
   backend "s3" {
     bucket         = "staticsite-multicloud-tf-davi"
+    # TALVEZ PRECISE MUDAR
     key            = "terraform.tfstate"
     dynamodb_table = "staticsite-multicloud-tf-davi1"
+    # TALVEZ PRECISE MUDAR
     region         = "us-east-1"
   }
 }
